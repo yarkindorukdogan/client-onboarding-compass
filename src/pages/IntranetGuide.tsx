@@ -39,17 +39,12 @@ const IntranetGuide = () => {
               <CardContent className="pt-6">
                 <StepItem 
                   title="Connect to the Company Network" 
-                  description="Establishing your initial connection"
+                  description="There is nothing to do extra, the internet connection in office will be made automatically through Wi-Fi."
                   index={0}
                 >
-                  <div className="space-y-3 text-sm">
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Connect your device to the office WiFi named "CompanySecure"
-                    </p>
-                    <p className="flex items-start">
-                      <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      When prompted, enter the network password provided by IT support
+                      If not, request and enter the network password provided by IT support
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
@@ -74,37 +69,11 @@ const IntranetGuide = () => {
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      When prompted, enter your PIN code
+                      If prompted, enter your PIN code
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
                       Wait for the connection to be established (usually 5-10 seconds)
-                    </p>
-                  </div>
-                </StepItem>
-
-                <StepItem 
-                  title="Network Drive Mapping" 
-                  description="Setting up access to shared network drives"
-                  index={2}
-                  isLastStep={true}
-                >
-                  <div className="space-y-3 text-sm">
-                    <p className="flex items-start">
-                      <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Right-click on "This PC" (Windows) or use Finder (macOS) to connect to server
-                    </p>
-                    <p className="flex items-start">
-                      <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Enter the server address: \\company-server\shared
-                    </p>
-                    <p className="flex items-start">
-                      <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Use your network credentials when prompted
-                    </p>
-                    <p className="flex items-start">
-                      <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Select the option to reconnect at sign-in for persistent access
                     </p>
                   </div>
                 </StepItem>
@@ -153,7 +122,7 @@ const IntranetGuide = () => {
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Your personalized dashboard appears on the homepage with relevant information
+                      Your personalized dashboard appears on the homepage with relevant information.
                     </p>
                   </div>
                 </StepItem>
@@ -196,24 +165,16 @@ const IntranetGuide = () => {
                 </h3>
                 <ul className="space-y-3 pl-7 list-disc">
                   <li>
-                    <strong>Employee Directory</strong> - Find contact information for all employees
-                    <p className="text-sm text-muted-foreground mt-1">Location: HR Portal {'>'}  Directory</p>
-                  </li>
-                  <li>
                     <strong>Document Repository</strong> - Access shared company documents and templates
                     <p className="text-sm text-muted-foreground mt-1">Location: Resources {'>'}  Documents</p>
                   </li>
                   <li>
-                    <strong>Time & Attendance System</strong> - Log your working hours and request time off
+                    <strong>Time & Attendance System</strong> - Log or track your working hours and request time off
                     <p className="text-sm text-muted-foreground mt-1">Location: HR Portal {'>'}  Time Tracking</p>
                   </li>
                   <li>
                     <strong>IT Service Desk</strong> - Submit IT support tickets and track their status
                     <p className="text-sm text-muted-foreground mt-1">Location: IT Support {'>'}  Service Desk</p>
-                  </li>
-                  <li>
-                    <strong>Meeting Room Booking</strong> - Reserve conference rooms and resources
-                    <p className="text-sm text-muted-foreground mt-1">Location: Facilities {'>'}  Room Booking</p>
                   </li>
                 </ul>
               </div>
@@ -228,9 +189,8 @@ const IntranetGuide = () => {
                     </p>
                     <ul className="space-y-2 pl-5 list-disc text-sm">
                       <li>Click the "Help" icon in the top right corner of the intranet portal</li>
-                      <li>Contact the IT Service Desk at extension 1234</li>
-                      <li>Email support@company.com with your specific question</li>
-                      <li>Visit the IT Support office on the 2nd floor during business hours</li>
+                      <li>Contact the IT Service Desk at extension 1050 (Bretten) </li>
+                      <li>Email https://bsh.service-now.com/now/nav/ui/classic/params/target/home.do with your specific question</li>
                     </ul>
                   </div>
                 </div>
