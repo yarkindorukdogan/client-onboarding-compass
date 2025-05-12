@@ -196,23 +196,23 @@ const IntranetGuide = () => {
                 <ul className="space-y-3 pl-7 list-disc">
                   <li>
                     <strong>Employee Directory</strong> - Find contact information for all employees
-                    <p className="text-sm text-muted-foreground mt-1">Location: HR Portal > Directory</p>
+                    <p className="text-sm text-muted-foreground mt-1">Location: HR Portal {'>'}  Directory</p>
                   </li>
                   <li>
                     <strong>Document Repository</strong> - Access shared company documents and templates
-                    <p className="text-sm text-muted-foreground mt-1">Location: Resources > Documents</p>
+                    <p className="text-sm text-muted-foreground mt-1">Location: Resources {'>'}  Documents</p>
                   </li>
                   <li>
                     <strong>Time & Attendance System</strong> - Log your working hours and request time off
-                    <p className="text-sm text-muted-foreground mt-1">Location: HR Portal > Time Tracking</p>
+                    <p className="text-sm text-muted-foreground mt-1">Location: HR Portal {'>'}  Time Tracking</p>
                   </li>
                   <li>
                     <strong>IT Service Desk</strong> - Submit IT support tickets and track their status
-                    <p className="text-sm text-muted-foreground mt-1">Location: IT Support > Service Desk</p>
+                    <p className="text-sm text-muted-foreground mt-1">Location: IT Support {'>'}  Service Desk</p>
                   </li>
                   <li>
                     <strong>Meeting Room Booking</strong> - Reserve conference rooms and resources
-                    <p className="text-sm text-muted-foreground mt-1">Location: Facilities > Room Booking</p>
+                    <p className="text-sm text-muted-foreground mt-1">Location: Facilities {'>'}  Room Booking</p>
                   </li>
                 </ul>
               </div>
