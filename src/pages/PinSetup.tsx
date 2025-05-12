@@ -56,10 +56,6 @@ const PinSetup = () => {
                   <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
                   Log in using your network credentials (username and password) provided by HR
                 </p>
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Select the "PIN Management" option from the dashboard menu
-                </p>
               </div>
             </StepItem>
 

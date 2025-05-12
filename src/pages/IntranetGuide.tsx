@@ -17,14 +17,14 @@ const IntranetGuide = () => {
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2 text-primary">Network & Intranet Guide</h1>
         <p className="text-lg text-muted-foreground">
-          Learn how to access and use our network resources
+          Learn how to access and use the network resources
         </p>
       </div>
 
       <div className="space-y-6 guide-content">
         <p>
-          Our intranet provides access to important company resources, tools, and information.
-          This guide will help you understand how to connect to the network and use our intranet effectively.
+          Intranet provides access to important company resources, tools, and information.
+          This guide will help you understand how to connect to the network and use the intranet effectively.
         </p>
 
         <Tabs defaultValue="access" className="w-full">
@@ -66,11 +66,11 @@ const IntranetGuide = () => {
                   <div className="space-y-3 text-sm">
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Launch the VPN client installed on your device (see Software Downloads guide)
+                      Launch the VPN client (Cisco Secure Client) installed on your device.
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Enter your company username and password
+                      Enter your company username and password (new one after changing the default)
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
@@ -123,7 +123,7 @@ const IntranetGuide = () => {
                   <div className="space-y-3 text-sm">
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Open your web browser and navigate to <span className="font-medium">https://intranet.company.internal</span>
+                      Open your web browser and navigate to <span className="font-medium">https://intranet.bsh-group.com</span>
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
@@ -148,7 +148,8 @@ const IntranetGuide = () => {
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      The search bar in the upper right corner can be used to find specific information
+                      The "My Apps" in the latter right can be used to set up a new password (Bosch Password Change), BSH Learning Hub to trainings-interface, BSH Portal to see your working hours,
+					  absence reports and every given personal data to Bosch.
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
