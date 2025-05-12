@@ -92,7 +92,7 @@ const IntranetGuide = () => {
                   <div className="space-y-3 text-sm">
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                      Open your web browser and navigate to <span className="font-medium">https://intranet.bsh-group.com</span>
+                      Open your web browser and navigate to <span className="font-medium"> https://intranet.bsh-group.com</span>
                     </p>
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
