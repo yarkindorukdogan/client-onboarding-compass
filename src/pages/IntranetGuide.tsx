@@ -42,6 +42,7 @@ const IntranetGuide = () => {
                   description="There is nothing to do extra, the internet connection in office will be made automatically through Wi-Fi."
                   index={0}
                 >
+                  <div className="space-y-3 text-sm">
                     <p className="flex items-start">
                       <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
                       If not, request and enter the network password provided by IT support
