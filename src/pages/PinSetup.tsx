@@ -43,25 +43,8 @@ const PinSetup = () => {
         <Card>
           <CardContent className="pt-6">
             <StepItem 
-              title="Access the PIN Setup Portal" 
-              description="Navigate to the company security portal"
-              index={0}
-            >
-              <div className="space-y-3 text-sm">
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Open your web browser and navigate to <span className="font-medium">https://security.company.internal</span>
-                </p>
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Log in using your network credentials (username and password) provided by HR
-                </p>
-              </div>
-            </StepItem>
-
-            <StepItem 
               title="Create Your New PIN" 
-              description="Set up a secure PIN that meets all requirements"
+              description="If not determined before, the system will automatically ask for you to set up a secure PIN that meets all requirements"
               index={1}
             >
               <div className="space-y-3 text-sm">
@@ -83,28 +66,7 @@ const PinSetup = () => {
                 </p>
               </div>
             </StepItem>
-
-            <StepItem 
-              title="Set Up Recovery Options" 
-              description="Configure methods to recover your PIN if forgotten"
-              index={2}
-            >
-              <div className="space-y-3 text-sm">
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Select at least two recovery options from the list (email, SMS, security questions)
-                </p>
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Provide the necessary information for each recovery method selected
-                </p>
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Complete the verification process for each recovery method
-                </p>
-              </div>
-            </StepItem>
-
+			
             <StepItem 
               title="Activate Your PIN" 
               description="Complete the PIN setup process"
@@ -114,15 +76,11 @@ const PinSetup = () => {
               <div className="space-y-3 text-sm">
                 <p className="flex items-start">
                   <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Click the "Activate PIN" button to finalize your PIN setup
+                  After creating the pin, it will be immediately activated.
                 </p>
                 <p className="flex items-start">
                   <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  You will receive a confirmation message when your PIN is successfully activated
-                </p>
-                <p className="flex items-start">
-                  <Check className="h-4 w-4 mr-2 text-primary flex-shrink-0 mt-1" />
-                  Your PIN will now be required for accessing secure company resources
+                  Your new PIN will now be required for logging in every single time.
                 </p>
               </div>
             </StepItem>
