@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
+import { Image } from "@/components/Image";
 
 const SoftwareGuide = () => {
   const handleDownloadClick = () => {
@@ -65,6 +66,37 @@ const SoftwareGuide = () => {
               title="Communication Ways" 
               description="Outlook for Mails - Calendars and MCTeams for calls, briefings, meetings"
               index={3}
+            >
+            </StepItem>
+          </CardContent>
+        </Card>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Python Installation</h2>
+        <Card>
+          <CardContent className="pt-6">
+            <StepItem 
+              title="Download Python" 
+              description="Visit the official Python website and download the latest stable version"
+              index={0}
+            >
+              <div className="bg-muted/50 p-4 rounded-lg mb-4">
+                <div className="aspect-video rounded overflow-hidden bg-muted/70 flex items-center justify-center">
+                  <p className="text-muted-foreground text-sm">Python installation screenshot will go here</p>
+                </div>
+              </div>
+            </StepItem>
+
+            <StepItem 
+              title="Run the Installer" 
+              description="Open the downloaded file and follow the installation wizard. Make sure to check 'Add Python to PATH'"
+              index={1}
+            >
+            </StepItem>
+
+            <StepItem 
+              title="Verify Installation" 
+              description="Open command prompt and type 'python --version' to confirm successful installation"
+              index={2}
               isLastStep={true}
             >
             </StepItem>
