@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Index from './pages/Index';
 import IntranetGuide from './pages/IntranetGuide';
 import SoftwareGuide from './pages/SoftwareGuide';
 import NotFound from './pages/NotFound';
-import { ThemeProvider } from "@/components/ThemeProvider"
+import { ThemeProvider } from "./components/ThemeProvider";
 import PythonSetup from "./pages/PythonSetup";
 
 function App() {
