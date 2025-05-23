@@ -75,8 +75,8 @@ const SoftwareGuide = () => {
         <Card>
           <CardContent className="pt-6">
             <StepItem 
-              title="Download Python" 
-              description="Visit the official Python website and download the latest stable version"
+              title="Order Python" 
+              description="Intranet -> IT Service Portal/ IT Shop"
               index={0}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
@@ -87,8 +87,8 @@ const SoftwareGuide = () => {
             </StepItem>
 
             <StepItem 
-              title="Run the Installer" 
-              description="Open the downloaded file and follow the installation wizard. Make sure to check 'Add Python to PATH'"
+              title="Important by Order Process" 
+              description="If the computer owner is not a user, the other user must be entered in the free text field."
               index={1}
             >
             </StepItem>
