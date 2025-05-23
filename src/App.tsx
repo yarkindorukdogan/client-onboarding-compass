@@ -1,33 +1,26 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Index from './pages/Index';
+import IntranetGuide from './pages/IntranetGuide';
+import SoftwareGuide from './pages/SoftwareGuide';
+import NotFound from './pages/NotFound';
+import { ThemeProvider } from "@/components/ThemeProvider"
+import PythonSetup from "./pages/PythonSetup";
 
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import SoftwareGuide from "./pages/SoftwareGuide";
-import PinSetup from "./pages/PinSetup";
-import IntranetGuide from "./pages/IntranetGuide";
-import NotFound from "./pages/NotFound";
-
-const queryClient = new QueryClient();
-
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
+function App() {
+  return (
+    <ThemeProvider defaultTheme="system" storageKey="vite-react-theme">
+      <Router>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/software" element={<SoftwareGuide />} />
-          <Route path="/pin-setup" element={<PinSetup />} />
-          <Route path="/intranet" element={<IntranetGuide />} />
+          <Route path="/intranet-guide" element={<IntranetGuide />} />
+          <Route path="/software-downloads" element={<SoftwareGuide />} />
+          <Route path="/python-setup" element={<PythonSetup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+      </Router>
+    </ThemeProvider>
+  );
+}
 
 export default App;
