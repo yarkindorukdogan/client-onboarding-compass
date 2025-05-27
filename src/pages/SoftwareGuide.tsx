@@ -80,9 +80,8 @@ const SoftwareGuide = () => {
               index={0}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
-                <Image 
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                  alt="Python installation screenshot showing monitor with Java programming" 
+                <Image https://github.com/yarkindorukdogan/client-onboarding-compass/blob/main/PythonOrder.png" 
+                  alt="Python Ordering Page" 
                   className="w-full h-auto object-cover rounded-md" 
                 />
               </div>
