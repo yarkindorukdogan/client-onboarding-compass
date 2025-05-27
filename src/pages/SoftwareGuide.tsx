@@ -80,11 +80,11 @@ const SoftwareGuide = () => {
               index={0}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
-                 <img 
-				src="PythonOrder.png" 
-				alt="Python installation screenshot" 
-            className="w-full h-full object-cover" 
-          />
+                <Image 
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+                  alt="Python installation screenshot showing monitor with Java programming" 
+                  className="w-full h-auto object-cover rounded-md" 
+                />
               </div>
             </StepItem>
 
