@@ -53,14 +53,6 @@ const Index = () => {
           icon={<Network className="h-6 w-6" />}
           path="/intranet"
         />
-        
-        <GuideCard
-          title="Help & Support"
-          description="Additional resources and contact information for IT support."
-          icon={<Info className="h-6 w-6" />}
-          path="/"
-          className="bg-primary/5"
-        />
       </div>
     </GuideLayout>
   );
