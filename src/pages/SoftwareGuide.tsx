@@ -80,7 +80,7 @@ const SoftwareGuide = () => {
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
                 <Image 
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800&h=600" 
+                  src="https://raw.githubusercontent.com/yarkindorukdogan/client-onboarding-compass/main/PythonOrder.png" 
                   alt="Python Ordering Page Interface" 
                   className="w-full h-auto object-cover rounded-md" 
                 />
