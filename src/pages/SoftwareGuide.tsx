@@ -81,7 +81,7 @@ const SoftwareGuide = () => {
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
                  <img 
-				src="https://github.com/yarkindorukdogan/client-onboarding-compass/blob/main/PythonOrder.png" 
+				src="PythonOrder.png" 
 				alt="Python installation screenshot" 
             className="w-full h-full object-cover" 
           />
