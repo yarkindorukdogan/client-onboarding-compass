@@ -93,7 +93,14 @@ const SoftwareGuide = () => {
               index={1}
             >
             </StepItem>
-
+			
+			<StepItem 
+              title="Frequently Asked Questions (FAQ)" 
+              description="Go to: https://inside-docupedia.bosch.com/confluence/display/bshesc/Python+-+FAQ"
+              index={1}
+            >
+            </StepItem>
+			
             <StepItem 
               title="Verify Installation" 
               description="Open command prompt and type 'python --version' to confirm successful installation"
