@@ -33,6 +33,13 @@ const Index = () => {
           path="/software"
         />
         
+		 <GuideCard
+          title="Python Installation"
+          description="How to install Python in steps."
+          icon={<Key className="h-6 w-6" />}
+          path="/pin-setup"
+        />
+		
         <GuideCard
           title="PIN Setup"
           description="How to create and manage your security PIN code."

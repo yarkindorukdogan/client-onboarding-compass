@@ -80,9 +80,11 @@ const SoftwareGuide = () => {
               index={0}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
-                <div className="aspect-video rounded overflow-hidden bg-muted/70 flex items-center justify-center">
-                  <p className="text-muted-foreground text-sm">Python installation screenshot will go here</p>
-                </div>
+                 <img 
+				src="https://github.com/yarkindorukdogan/client-onboarding-compass/blob/main/PythonOrder.png" 
+				alt="Python installation screenshot" 
+            className="w-full h-full object-cover" 
+          />
               </div>
             </StepItem>
 
