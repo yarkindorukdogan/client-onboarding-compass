@@ -73,10 +73,20 @@ const SoftwareGuide = () => {
         <h2 className="text-2xl font-semibold mt-8 mb-4">Python Installation</h2>
         <Card>
           <CardContent className="pt-6">
+		  
+		   </StepItem>
+
+            <StepItem 
+              title="Important by Order Process" 
+              description="If the computer owner is not a user, the other user must be entered in the free text field."
+              index={0}
+            >
+            </StepItem>
+			
             <StepItem 
               title="Order Python" 
               description="Intranet -> IT Service Portal/ IT Shop"
-              index={0}
+              index={1}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
                 <Image 
@@ -85,26 +95,18 @@ const SoftwareGuide = () => {
                   className="w-full h-auto object-cover rounded-md" 
                 />
               </div>
-            </StepItem>
-
-            <StepItem 
-              title="Important by Order Process" 
-              description="If the computer owner is not a user, the other user must be entered in the free text field."
-              index={1}
-            >
-            </StepItem>
-			
+           
 			<StepItem 
               title="Frequently Asked Questions (FAQ)" 
               description="Go to: https://inside-docupedia.bosch.com/confluence/display/bshesc/Python+-+FAQ"
-              index={1}
+              index={2}
             >
             </StepItem>
 			
             <StepItem 
               title="Verify Installation" 
-              description="Open command prompt and type 'python --version' to confirm successful installation"
-              index={2}
+              description="After downloading succesfully, open command prompt (a.k.a. cmd/Eingabeaufforderung) and type 'python --version' to confirm successful installation"
+              index={3}
               isLastStep={true}
             >
             </StepItem>
