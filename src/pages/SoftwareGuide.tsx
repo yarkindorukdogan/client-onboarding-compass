@@ -1,4 +1,3 @@
-
 import { GuideLayout } from "@/components/GuideLayout";
 import { StepItem } from "@/components/StepItem";
 import { Button } from "@/components/ui/button";
@@ -80,8 +79,9 @@ const SoftwareGuide = () => {
               index={0}
             >
               <div className="bg-muted/50 p-4 rounded-lg mb-4">
-                <Image https://github.com/yarkindorukdogan/client-onboarding-compass/blob/main/PythonOrder.png" 
-                  alt="Python Ordering Page" 
+                <Image 
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800&h=600" 
+                  alt="Python Ordering Page Interface" 
                   className="w-full h-auto object-cover rounded-md" 
                 />
               </div>
