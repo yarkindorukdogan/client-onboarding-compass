@@ -1,4 +1,3 @@
-
 import { GuideLayout } from "@/components/GuideLayout";
 import { StepItem } from "@/components/StepItem";
 import { Card, CardContent } from "@/components/ui/card";
