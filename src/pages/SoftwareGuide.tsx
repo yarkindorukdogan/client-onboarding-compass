@@ -1,3 +1,4 @@
+
 import { GuideLayout } from "@/components/GuideLayout";
 import { StepItem } from "@/components/StepItem";
 import { Button } from "@/components/ui/button";
@@ -73,9 +74,6 @@ const SoftwareGuide = () => {
         <h2 className="text-2xl font-semibold mt-8 mb-4">Python Installation</h2>
         <Card>
           <CardContent className="pt-6">
-		  
-		   </StepItem>
-
             <StepItem 
               title="Important by Order Process" 
               description="If the computer owner is not a user, the other user must be entered in the free text field."
@@ -95,8 +93,9 @@ const SoftwareGuide = () => {
                   className="w-full h-auto object-cover rounded-md" 
                 />
               </div>
-           
-			<StepItem 
+            </StepItem>
+			
+            <StepItem 
               title="Frequently Asked Questions (FAQ)" 
               description="Go to: https://inside-docupedia.bosch.com/confluence/display/bshesc/Python+-+FAQ"
               index={2}
